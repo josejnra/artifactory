@@ -12,6 +12,8 @@
   },
   "scripts": {
     "thaw": "poetry install",
-    "requirements": "poetry export --without-hashes --dev -o requirements.txt"
+    "requirements": "poetry export --without-hashes --dev -o requirements.txt",
+    "download-artifactory-pro": "clear && /workspaces/artifactory/scripts/download-artifactory-pro.sh",
+    "download-artifactory-oss": "clear && /workspaces/artifactory/scripts/download-artifactory-oss.sh"
   }
 }
